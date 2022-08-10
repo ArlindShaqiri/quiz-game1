@@ -4,7 +4,13 @@ class Question:
         self.answer = answer
 
 
-new_question = Question("Pyetja", "Pergjigjia")
-print(new_question.text)
-print(new_question.answer)
+question_one = Question("Pyetja", "Pergjigjia")
+print(question_one.text)
+print(question_one.answer)
+question_two = Question("Pyetja", "Pergjigjia")
+print(question_two.text)
+print(question_two.answer)
+
+
+
 
